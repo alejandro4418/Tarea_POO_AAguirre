@@ -23,9 +23,14 @@ public class Main {
         PlantillaLuz p2 = new PlantillaLuz();
         p2.ingresarDatos();
         p2.mostrarPlantilla();
-        */
+
         Empleado e2 = new Empleado();
         e2.ingresarDatos();
         e2.mostrarReporte();
+        */
+        PedidoRestaurante p3 = new PedidoRestaurante();
+        p3.ingresarDatos();
+        p3.mostrarCuenta();
+
     }
 }
