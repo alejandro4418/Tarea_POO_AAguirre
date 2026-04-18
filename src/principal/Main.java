@@ -27,10 +27,18 @@ public class Main {
         Empleado e2 = new Empleado();
         e2.ingresarDatos();
         e2.mostrarReporte();
-        */
+
         PedidoRestaurante p3 = new PedidoRestaurante();
         p3.ingresarDatos();
         p3.mostrarCuenta();
+        */
+
+        ProductoInventario p4 = new ProductoInventario("PRD-105", "Disco SSD 1TB", "Almacenamiento", 89.50, 12, 8);
+        p4.reporteFinal();
+        p4.setPrecio_unitario(95.0);
+        p4.setStock_disponible(5);
+        p4.reporteFinal();
+        p4.setStock_disponible(-3);
 
     }
 }
