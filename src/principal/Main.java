@@ -3,6 +3,7 @@ package principal;
 import modelos.Calificacion;
 import modelos.Estudiante;
 import modelos.Producto;
+import modelos.PlantillaLuz;
 
 public class Main {
     void main(){
@@ -14,13 +15,16 @@ public class Main {
         Producto p1 = new Producto();
         p1.ingresarDatos();;
         p1.mostrarFactura();
-        */
+
         Calificacion c1 = new Calificacion();
         System.out.println("----REPORTE ACADEMICO----");
         System.out.println("Nombre: "+ c1.getNombre());
         System.out.println("Promedio: " + c1.calcularProemdio());
         System.out.println("Estado: " + c1.determinarEstado());
         System.out.println("----------------------------------");
-
+        */
+        PlantillaLuz p2 = new PlantillaLuz();
+        p2.ingresarDatos();
+        p2.mostrarPlantilla();
     }
 }
