@@ -1,9 +1,6 @@
 package principal;
 
-import modelos.Calificacion;
-import modelos.Estudiante;
-import modelos.Producto;
-import modelos.PlantillaLuz;
+import modelos.*;
 
 public class Main {
     void main(){
@@ -22,9 +19,13 @@ public class Main {
         System.out.println("Promedio: " + c1.calcularProemdio());
         System.out.println("Estado: " + c1.determinarEstado());
         System.out.println("----------------------------------");
-        */
+
         PlantillaLuz p2 = new PlantillaLuz();
         p2.ingresarDatos();
         p2.mostrarPlantilla();
+        */
+        Empleado e2 = new Empleado();
+        e2.ingresarDatos();
+        e2.mostrarReporte();
     }
 }
